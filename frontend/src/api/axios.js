@@ -2,7 +2,7 @@ import axios from 'axios';
 import useAuthStore from '../store/authStore';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://rbac-u5ha.onrender.com/api',
 });
 
 api.interceptors.request.use(
