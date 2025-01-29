@@ -2,7 +2,7 @@ import axios from 'axios';
 import useAuthStore from '../store/authStore';
 
 const api = axios.create({
-  baseURL: 'https://rbac-znau.onrender.com',
+  baseURL: 'https://rbac-znau.onrender.com/api',
 });
 
 api.interceptors.request.use(
